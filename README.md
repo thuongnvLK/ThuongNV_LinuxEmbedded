@@ -1,10 +1,11 @@
-#   **AUTOMATIVE EMBEDDED**
+#   **LINUX EMBEDDED**
 
 ![Build Status](https://img.shields.io/badge/build-in%20progress-yellow)         
-![Keil µVision](https://img.shields.io/badge/Keil-IDE-blue?logo=keil&style=flat-square)     
-![STM32](https://img.shields.io/badge/STM32-Microcontroller-blue?logo=stmicroelectronics&style=flat-square)     
+![IDE](https://img.shields.io/badge/IDE-Linux%20based%20tools-blue?logo=linux&style=flat-square)     
+![Platform](https://img.shields.io/badge/Platform-ARM%20based%20processor-blue?logo=arm&style=flat-square)     
 ![Language: C](https://img.shields.io/badge/Language-C-yellow?logo=c&style=flat-square)     
-![Version](https://img.shields.io/badge/Version-1.0-green?style=flat-square)     
+![Version](https://img.shields.io/badge/Version-1.0-green?style=flat-square)    
+ 
 
 ##  **Table of Contents**
 [Lesson 01: Setting Up Your First Keil µVision Project](#lesson-01-setting-up-your-first-keil-µvision-project) 
