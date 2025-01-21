@@ -44,6 +44,27 @@ The procedure is as follows:
 
 ## Lesson 01: General
 
+### 1. Introduction to Makefile
+
+- A Makefile is a special file used by the `make` utility to automate the build process of software projects. It contains a set of rules and instructions to compile and link programs, simplifying repetitive tasks and improving efficiency.
+- A Makefile is a script that contains the following information:
+  - The structure of a project (files and dependencies).
+  - Command lines used to create or delete files.
+- The make program will read the content of the Makefile and execute it.
+
+**Structure of a Simple Rule in Makefile**
+
+![Alt text](images/Linux0.png)
+
+- **Prereuisites**: These are the files required to create the target.
+- **Target**: This is **the file** generated after the `make` process is executed, or it can be **an action mane** such as `build`, `run`, etc.
+- **Action**: This refers to the Compile command used to generate the target from the prerequisites, or to execute the target. The action must be indented by one `tab` relative to the target.
+
+Example:
+```
+hellomake: hello.c main.c
+  gcc -o hellomake hello.c main.c -I
+```
 
 
 ## Lesson 00: File
