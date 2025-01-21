@@ -11,7 +11,9 @@
 
 ## Lesson 00: Setting Up
 
-**Ubuntu Linux install vim using apt**
+### 1. Ubuntu Linux
+
+**Install vim using apt**
 
 The procedure is as follows:
   1. Open terminal application. You can also press `CTRL + ALT + T` keyboard shortcut.
@@ -19,6 +21,9 @@ The procedure is as follows:
   3. Search for viim package run: `sudo apt search vim`
   4. Install vim on Ubuntu Linux, `type: sudo apt install vim`
   5. Verify vim installation by typing the `vim --version` command
+
+**Install <u>gcc</u> using apt**
+
 
 
 ## Lesson 00: General
