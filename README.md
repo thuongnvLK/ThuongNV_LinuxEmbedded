@@ -66,7 +66,26 @@ hellomake: hello.c main.c
   gcc -o hellomake hello.c main.c -I
 ```
 
+**Phony Targets**
 
+A phony target is one that is not really the name of a file; rather it is just a name for a recipe to be executed when you make an explicit request. There are two reasons to use a phony target: to avoid a conflict with a file of the same name, and to improve performance. 
+
+**Why use a phony target?**
+
+There are two main reasons:
+
+1. **Avoid conflicts with files of the smae name**
+  - If you have a file in your directory with the same name as your target, `make` might think the target is `up to date` and skip running the commands.
+  - By marking a target as phony, you tell `make` to ignore the file and always run the commands for the target.
+2. **Improve performance**
+  - `make` doesn't waste time checking whether the phony target exists as a file. It knows immediately that the target is not a file and executes the commands directly.
+  - This especially helpful in large projects wiht many dependencies.
+
+  ### 2. Compiling a C program
+
+  #### 2.2 Pre-processing 
+
+  
 ## Lesson 00: File
 
 ### **1. Overview of File on Linux**
