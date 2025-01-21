@@ -13,6 +13,12 @@
 
 ### 1. Ubuntu Linux
 
+#### 1.1 What is sudo and apt
+
+- `sudo` stands for **Superuser Do**. It is a command in Linux and Unix system that allows a user to execute tasks requiring **administrative privileges** or **superuser (root) rights** .
+
+- `apt` stands for **Advanced Package Tool**. It is a command-line utility used in Linux distributions based on Debian (such as Ubuntu) to manage software packages. It simplifies the process of installing, updating, and removing software by communicating with the system's package management system.
+
 **Install vim using apt**
 
 The procedure is as follows:
@@ -22,11 +28,23 @@ The procedure is as follows:
   4. Install vim on Ubuntu Linux, `type: sudo apt install vim`
   5. Verify vim installation by typing the `vim --version` command
 
-**Install <u>gcc</u> using apt**
+**Install gcc using apt**
+
+`sudo apt install gcc`
+
+**Install make using apt**
+
+`sudo apt install make`
+
+**Install git using apt**
+
+`sudo apt install git`
+
+---
+
+## Lesson 01: General
 
 
-
-## Lesson 00: General
 
 ## Lesson 00: File
 
