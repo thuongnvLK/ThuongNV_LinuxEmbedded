@@ -118,7 +118,9 @@ There are two main reasons:
 
 ![Alt text](images/Linux1.png)
 
+![Alt text](images/Linux2.png)
 
+![Alt text](images/Linux3.png)
 ## Lesson 00: File
 
 ### **1. Overview of File on Linux**
