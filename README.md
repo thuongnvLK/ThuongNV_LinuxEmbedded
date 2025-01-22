@@ -94,8 +94,12 @@ There are two main reasons:
 ### 2.2 Compilation (The stage of translating high-level language to assembly)
 
 - At this stage, the source code continues to be compiled from the ".i" file obtained in the previous step into a ".s" file (assembly).
+### 2.3 Assembly (The stage of translating assembly code to machine code)
 
-### 2.3 Linking
+- The ".s" file from the previous stage continues to be used for this stage.
+- Through the assembler, the output we obtain is a ".o" file. This file contains instructions in machine language.
+
+### 2.4 Linking
 
 - Each ".o" file obtained in the assembly stage is part of the program.
 - In the linking stage, these files are combined to produce a complete executable file.
@@ -121,11 +125,34 @@ There are two main reasons:
 ![Alt text](images/Linux2.png)
 
 ![Alt text](images/Linux3.png)
-## Lesson 00: File
+
+
+## Lesson 02: File
 
 ### **1. Overview of File on Linux**
 
-- 
+- Linux manages everything as a file.
+
+- Types of Files in Linux:
+  - **Regular file**: These are standard files, such as text files or executable files.
+  - **Directory file**: A file that contains a list of other files.
+  - **Character Device file**: A file that represents devices without memory addressable storage.
+  - **Block Device file**: A file that represents devices with addressable memory storage.
+  - **Link file**: A file that represents another file. 
+  - **Socket file**: A file that represents a socket.
+  - **Pipe file**: A file that represents a pipe.
+
+![Alt text](images/Linux4.png)
+
+
+### **2. File Reading and Writing in Linux**
+
+### **3. File Management in Linux**
+
+### **4. File Locking**
+
+### **5. Asynchronous File Reading and Writing**
+
 
 ## Contact
 Email: individual.thuongnguyen@gmail.com    
