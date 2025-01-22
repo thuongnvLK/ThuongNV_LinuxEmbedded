@@ -102,10 +102,10 @@ There are two main reasons:
 
 | Propertics | Static Library | Shared Library |
 |----------|----------|----------|
-| Linking time  | All modules in the library will be copied into the executable file at compile time. When the program is loaded into memory, the operating system only loads a single executable file that includes the source code and the library linked (static linking).  | Value 3  |
-| Value 4  | Value 5  | Value 6  |
-| Value 7  | Value 8  | Value 9  |
-
+| Linking time  | All modules in the library will be copied into the executable file at compile time. When the program is loaded into memory, the operating system only loads a single executable file that includes the source code and the library linked (static linking).  | Meanwhile, a shared library is used during the linking process, where both the executable file and the library file are loaded into memory at runtime. A shared library can be used by multiple programs. (Dynamic Lnking)  |
+| Size  | Using a static library consumes more memmory than a shared linbrary  | Using a shared library comsumes less memmory because there is only a single copy in memory.  |
+| External File changes  | The executable file must be recompiled whenever there are changes in the static library  | For a shared library, it is not necessary to recompile the executable file  |
+| Time  | Value 8  | Value 9  |
 
 
 ### 2.4 Static Lib and Shared Lib
