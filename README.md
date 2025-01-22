@@ -100,9 +100,9 @@ There are two main reasons:
 - Each ".o" file obtained in the assembly stage is part of the program.
 - In the linking stage, these files are combined to produce a complete executable file.
 
-| Column 1 | Column 2 | Column 3 |
+| Propertics | Static Library | Shared Library |
 |----------|----------|----------|
-| Value 1  | Value 2  | Value 3  |
+| Linking time  | All modules in the library will be copied into the executable file at compile time. When the program is loaded into memory, the operating system only loads a single executable file that includes the source code and the library linked (static linking).  | Value 3  |
 | Value 4  | Value 5  | Value 6  |
 | Value 7  | Value 8  | Value 9  |
 
