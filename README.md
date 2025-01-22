@@ -81,11 +81,39 @@ There are two main reasons:
   - `make` doesn't waste time checking whether the phony target exists as a file. It knows immediately that the target is not a file and executes the commands directly.
   - This especially helpful in large projects wiht many dependencies.
 
-  ### 2. Compiling a C program
+### 2. Compiling a C program
 
-  #### 2.2 Pre-processing 
+#### 2.1 Pre-processing 
 
-  
+  - Remove comments.
+  - Expanding macros.
+  - Expanding include files.
+  - Compiling conditional statements.
+  - The result obtained after this step is a ".i" file.
+
+### 2.2 Compilation (The stage of translating high-level language to assembly)
+
+- At this stage, the source code continues to be compiled from the ".i" file obtained in the previous step into a ".s" file (assembly).
+
+### 2.3 Linking
+
+- Each ".o" file obtained in the assembly stage is part of the program.
+- In the linking stage, these files are combined to produce a complete executable file.
+
+
+
+
+### 2.4 Static Lib and Sahre Lib
+
+- A library is a collection of precompiled code segments that can be reused in a prgram.
+
+- Is is divided into two types:
+  - Static Lib (.a)
+  - Share Lib (.so)
+
+![Alt text](images/Linux1.png)
+
+
 ## Lesson 00: File
 
 ### **1. Overview of File on Linux**
