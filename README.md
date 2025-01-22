@@ -100,16 +100,21 @@ There are two main reasons:
 - Each ".o" file obtained in the assembly stage is part of the program.
 - In the linking stage, these files are combined to produce a complete executable file.
 
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Value 1  | Value 2  | Value 3  |
+| Value 4  | Value 5  | Value 6  |
+| Value 7  | Value 8  | Value 9  |
 
 
 
-### 2.4 Static Lib and Sahre Lib
+### 2.4 Static Lib and Shared Lib
 
 - A library is a collection of precompiled code segments that can be reused in a prgram.
 
 - Is is divided into two types:
   - Static Lib (.a)
-  - Share Lib (.so)
+  - Shared Lib (.so on Linux or .dll on Window (Dynamic Link Libraries)).
 
 ![Alt text](images/Linux1.png)
 
