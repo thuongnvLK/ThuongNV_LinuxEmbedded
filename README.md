@@ -74,7 +74,7 @@ A phony target is one that is not really the name of a file; rather it is just a
 
 There are two main reasons:
 
-1. **Avoid conflicts with files of the smae name**
+1. **Avoid conflicts with files of the same name**
   - If you have a file in your directory with the same name as your target, `make` might think the target is `up to date` and skip running the commands.
   - By marking a target as phony, you tell `make` to ignore the file and always run the commands for the target.
 2. **Improve performance**
@@ -146,6 +146,13 @@ There are two main reasons:
 
 
 ### **2. File Reading and Writing in Linux**
+
+- The kernel provides a basic system call to perform reading, writing, and operation on files, including:
+  - open()
+  - read()
+  - write()
+  - lseek()
+  - close()
 
 ### **3. File Management in Linux**
 
